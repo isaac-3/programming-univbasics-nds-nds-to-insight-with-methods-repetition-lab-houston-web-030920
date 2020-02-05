@@ -50,6 +50,7 @@ def total_gross(source)
   return g_total
 end
 
+
   # g_total = directors_totals(source).values.sum
   # return g_total
   
