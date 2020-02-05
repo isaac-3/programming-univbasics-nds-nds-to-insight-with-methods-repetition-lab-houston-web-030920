@@ -51,9 +51,9 @@ def total_gross(source)
 end
 
 def total_gross(source)
-  # g_total = directors_totals(source).values.sum
-  # return g_total
-
+  g_total = directors_totals(source).values.sum
+  return g_total
+end
   
   # Write this implementation
   #
