@@ -39,13 +39,9 @@ end
 def total_gross(source)
   g_total = 0
   d_index = 0
-  while d_index < list_of_directors(source).length do
-    t_index = 0
-    while t_index < directors_totals(source).length do
+    while d_index < directors_totals(source).length do
       g_total += directors_totals(source)[list_of_directors(source)[d_index]]
-      t_index += 1
-    end
-    d_index +=1
+    d_index += 1
   end
   return g_total
 end
