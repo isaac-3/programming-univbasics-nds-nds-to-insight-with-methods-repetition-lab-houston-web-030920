@@ -42,7 +42,7 @@ def total_gross(source)
   while d_index < list_of_directors(source).length do
     t_index = 0
     while t_index < directors_totals(source).length do
-      g_total = directors_totals(source)[:name]
+      g_total += directors_totals(source)[:name]
       t_index += 1
     end
     d_index +=1
